@@ -1,12 +1,10 @@
 title: The Penetrator
 originalAuthor: danimalforlife
 description:  |+
-Fixes the Ultima Weapon and replaces it with The Penetrator.
+    Fixes the Ultima Weapon and replaces it with The Penetrator.
 
 assets:
-
 ###Object###
-
 #Ultima Weapon
 - name: obj/W_EX010_N0.mdlx
   method: copy
