@@ -1,10 +1,10 @@
 - id: 15950 #0x3E4E
   en: The Penetrator
 - id: 15951 #0x3E4F
-  en: {:width 95}The absurdity of a sex toy 
+  en: '{:width 95}The absurdity of a sex toy 
 
     with the lethality of a baseball bat.
 
     Increases MP restoration rate by {:color #F0F00080}75%{:reset}
 
-    once all MP has been consumed.
+    once all MP has been consumed.'
