@@ -1,0 +1,111 @@
+title: The Penetrator
+originalAuthor: danimalforlife
+description:  |+
+Fixes the Ultima Weapon and replaces it with The Penetrator.
+
+assets:
+
+###Object###
+
+#Ultima Weapon
+- name: obj/W_EX010_N0.mdlx
+  method: copy
+  source:
+  - name: obj/W_EX010_N0.mdlx
+
+#Timeless River
+- name: obj/W_EX010_WI.mdlx
+  method: copy
+  source:
+  - name: obj/W_EX010_N0.mdlx
+
+#Halloween Town
+- name: obj/W_EX010_N0_NM.mdlx
+  method: copy
+  source:
+  - name: obj/W_EX010_N0.mdlx
+
+#Space Paranoids
+- name: obj/W_EX010_N0_TR.mdlx
+  method: copy
+  source:
+  - name: obj/W_EX010_N0.mdlx
+
+
+
+###Texture###
+
+#Normal
+- name: remastered/obj/W_EX010_N0.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_N0.mdlx/-0.dds
+
+#Halloween Town
+- name: remastered/obj/W_EX010_N0_NM.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_N0.mdlx/-0.dds
+
+#Space Paranoids
+- name: remastered/obj/W_EX010_N0_TR.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_N0.mdlx/-0.dds
+
+#Timeless River
+- name: remastered/obj/W_EX010_N0_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_N0.mdlx/-0.dds
+
+
+###Ultima Crown Image Effect###
+
+#Normal
+- name: remastered/obj/W_EX010_N0.a.us/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_N0.a.us/-2.dds
+
+#Halloween Town
+- name: remastered/obj/W_EX010_N0_NM.a.us/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_N0.a.us/-2.dds
+
+#Space Paranoids
+- name: remastered/obj/W_EX010_N0_TR.a.us/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_N0.a.us/-2.dds
+
+#Timeless River
+- name: remastered/obj/W_EX010_N0_WI.a.us/-2.dds
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_N0.a.us/-2.dds
+
+
+###Item Pic###
+
+#Ultima Item Pic
+- name: remastered/itempic/item-064.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/item-064.imd/-0.dds
+
+
+#Ultima Key Name and Description
+- name: msg/us/sys.bar
+  multi:
+  - name: msg/uk/sys.bar
+  - name: msg/jp/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/sys.yml
+      language: en
