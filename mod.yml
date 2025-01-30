@@ -12,7 +12,7 @@ assets:
   - name: obj/W_EX010_N0.mdlx
 
 #Timeless River
-- name: obj/W_EX010_WI.mdlx
+- name: obj/W_EX010_N0_WI.mdlx
   method: copy
   source:
   - name: obj/W_EX010_N0.mdlx
