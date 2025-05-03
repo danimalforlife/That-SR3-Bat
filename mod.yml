@@ -7,24 +7,28 @@ assets:
 ###Object###
 #Ultima Weapon
 - name: obj/W_EX010_N0.mdlx
+  package: kh2_sixth
   method: copy
   source:
   - name: obj/W_EX010_N0.mdlx
 
 #Timeless River
 - name: obj/W_EX010_N0_WI.mdlx
+  package: kh2_sixth
   method: copy
   source:
   - name: obj/W_EX010_N0.mdlx
 
 #Halloween Town
 - name: obj/W_EX010_N0_NM.mdlx
+  package: kh2_sixth
   method: copy
   source:
   - name: obj/W_EX010_N0.mdlx
 
 #Space Paranoids
 - name: obj/W_EX010_N0_TR.mdlx
+  package: kh2_sixth
   method: copy
   source:
   - name: obj/W_EX010_N0.mdlx
@@ -35,24 +39,28 @@ assets:
 
 #Normal
 - name: remastered/obj/W_EX010_N0.mdlx/-0.dds
+  package: kh2_sixth
   method: copy
   source:
   - name: remastered/obj/W_EX010_N0.mdlx/-0.dds
 
 #Halloween Town
 - name: remastered/obj/W_EX010_N0_NM.mdlx/-0.dds
+  package: kh2_sixth
   method: copy
   source:
   - name: remastered/obj/W_EX010_N0.mdlx/-0.dds
 
 #Space Paranoids
 - name: remastered/obj/W_EX010_N0_TR.mdlx/-0.dds
+  package: kh2_sixth
   method: copy
   source:
   - name: remastered/obj/W_EX010_N0.mdlx/-0.dds
 
 #Timeless River
 - name: remastered/obj/W_EX010_N0_WI.mdlx/-0.dds
+  package: kh2_sixth
   method: copy
   source:
   - name: remastered/obj/W_EX010_N0.mdlx/-0.dds
@@ -62,24 +70,28 @@ assets:
 
 #Normal
 - name: remastered/obj/W_EX010_N0.a.us/-2.dds
+  package: kh2_sixth
   method: copy
   source:
   - name: remastered/obj/W_EX010_N0.a.us/-2.dds
 
 #Halloween Town
 - name: remastered/obj/W_EX010_N0_NM.a.us/-2.dds
+  package: kh2_sixth
   method: copy
   source:
   - name: remastered/obj/W_EX010_N0.a.us/-2.dds
 
 #Space Paranoids
 - name: remastered/obj/W_EX010_N0_TR.a.us/-2.dds
+  package: kh2_sixth
   method: copy
   source:
   - name: remastered/obj/W_EX010_N0.a.us/-2.dds
 
 #Timeless River
 - name: remastered/obj/W_EX010_N0_WI.a.us/-2.dds
+  package: kh2_sixth
   method: copy
   source:
   - name: remastered/obj/W_EX010_N0.a.us/-2.dds
@@ -89,9 +101,17 @@ assets:
 
 #Ultima Item Pic
 - name: remastered/itempic/item-064.imd/-0.dds
+  package: kh2_fifth
   method: copy
   source:
   - name: remastered/itempic/item-064.imd/-0.dds
+
+#Ultima Item Pic PS2
+- name: itempic/item-064.imd
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: itempic/item-064.imd
 
 
 #Ultima Key Name and Description
@@ -99,6 +119,7 @@ assets:
   multi:
   - name: msg/uk/sys.bar
   - name: msg/jp/sys.bar
+  package: kh2_first
   method: binarc
   source:
   - name: sys
